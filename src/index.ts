@@ -67,11 +67,12 @@ const main = async () => {
           spinner.error({ text: `${err}` });
         }
         break;
+
       case Action.MOSTRAR:
         spinner = createSpinner(`La expresión in-fija es:`).start();
         await wait(700);
         try {
-          spinner.success({ text: show(input, type) });
+          spinner.success({ text: `${show(input, type)}` });
         } catch (err) {
           spinner.error({ text: `${err}` });
         }
