@@ -3,6 +3,10 @@
 Author: Jesús Bovea,
 Carnet: 19-10072
 
+## Requirements
+
+Node version: `21.2.0` or above
+
 ## Installation
 
 - Build with
